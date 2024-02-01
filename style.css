@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f6f9c8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #e44d26;
+  }
+  
+  button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #c53719;
+  }
+img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: 520px; /* Maintain aspect ratio when resizing */
+    display: inline-flex; /* Remove any extra space beneath the image */
+    margin: 0 auto; /* Center the image within its container */
+    border-radius: 8px; /* Add a subtle border-radius for rounded corners */
+   
+  
+}  
